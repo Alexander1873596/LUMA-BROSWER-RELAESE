@@ -2,8 +2,9 @@ name: Build Windows EXE
 
 on:
   push:
-    branches: [ "main", "master" ]
-  workflow_dispatch:
+    branches:
+      - main
+      - master
 
 permissions:
   contents: read
